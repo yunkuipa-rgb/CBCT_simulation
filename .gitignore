@@ -1,0 +1,54 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# OS/editor noise
+.DS_Store
+*.swp
+*.swo
+
+# Medical images and volume data
+*.nii
+*.nii.gz
+*.dcm
+*.dicom
+*.ima
+*.mha
+*.mhd
+*.nrrd
+*.nhdr
+*.raw
+
+# Array/model/table/archive data
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.mat
+*.pkl
+*.pickle
+*.csv
+*.tsv
+*.jsonl
+*.parquet
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+# Generated outputs and local datasets
+CBCT/
+pCT/
+data/
+result/
+res_brion/
+res_phys/
+res_sino/
